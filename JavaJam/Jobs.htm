@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>JavaJam Coffee House Jobs</title>
+	<link rel="stylesheet" type="text/css" href="javajam.css" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+	<div id="wrapper">
+		<header>
+			<h1> JavaJam Coffee House </h1>
+		</header>
+		<nav>
+			<ul>
+				<li><a href="index.htm">Home</a></li>
+				<li><a href="Menu.htm">Menu</a></li>
+				<li><a href="Music.htm">Music</a></li>
+				<li><a href="Jobs.htm">Jobs</a></li>
+			</ul>
+		</nav>
+		<main>
+			<div id="herojobs"></div>
+			<br class="clearleft">
+			<h2> Jobs at JavaJam </h2>
+			<p>Want to work at JavaJam? Fill out the form below to start your application.</p>
+			<p>Required fields nare marked with an asterisk (*)</p>
+			<form method="post" action="http://webdevbasics.net/scripts/javajam8.php">
+				<label for="Name">*Name:</label>
+				<input type="text" name="Name" required="required">
+				<label for="E-Mail">*E-Mail:</label>
+				<input type="email" name="E-Mail" required="required">
+				<label for="myExperience">*Experience:</label>
+				<textarea name="myExperience" cols="20" rows="2" required="required"></textarea>
+				<input type="submit" name="mySubmit" id="mySubmit" value="Apply Now">
+			</form>
+		</main>
+		<footer>
+			<p>Copyright &copy; 2018 JavaJam Coffee House<br/>
+				<a href="mailto:benjamin@klimchock.com">benjamin@klimchock.com</a>
+			</p>
+		</footer>
+	</div>	
+</body>
+</html>
